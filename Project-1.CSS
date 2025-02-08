@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    background-color: #001930;
+}
+.head{
+    display: flex;
+    align-items: end;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 30px;
+}
+nav{
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    margin-left: 50px;
+}
+nav ul li{
+    padding: 30px 50px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 23px;
+}
+nav ul li a{
+    width: 180px;
+    text-decoration: none;
+    color: White;
+}
+nav ul li a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+.but{
+    padding: 30px 0;
+}
+.butt{
+    width: 100px;
+    height: 30px;
+    margin: 30px 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px white;
+}
+.intro{
+    background-image: url(Images/Project-1/background\ of\ gaming.jpeg);
+    width: 87.01vw;
+    height: 76vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 80px;
+    color: white;
+    margin-bottom: 50px;
+}
+.a-game{
+    display: inline-block;
+    width: 220px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    background-color: black;
+}
+.a-game img{
+    width: 180px;
+    height: 160px;
+    margin: 0px 20px;
+    margin-top: 10px;
+}
+.a-game h3{
+    font-size: 26px;
+    margin: 0 23px;
+    color: white;
+}
+.game{
+    margin: 5px 20px;
+    width: 165px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#pubg{
+    margin: 0 3px;
+}
+#brawl{
+    margin: 0 40px;
+}
+#valo{
+    margin: 0 50px;
+}
+#mine{
+    margin: 0 40px;
+}
+#gta{
+    margin: 0 60px;
+}
+#rob{
+    margin: 0 60px;
+}
+#west{
+    margin: 0 5px;
+}
+.mid{
+    background-image: url(Images/Project-1/middle\ background.jpeg);
+    background-size: cover;
+    height: 100px;
+    color: white;
+    padding: 200px 100px;
+}
+.learn{
+    margin: 30px 180px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.learn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 20px black;
+}
+.mid{
+    margin-bottom: 50px;
+}
+#gran{
+    margin: 0 60px;
+}
+#evil{
+    margin: 0 50px;
+}
+#ice{
+    margin: 0 40px;
+}
+#choo{
+    margin: 0 10px;
+    font-size: 23px;
+}
+#hill{
+    margin: 0 8px;
+}
+#pc{
+    margin: 0 40px;
+}
+#ang{
+    margin: 0 40px;
+}
+#tem{
+    margin: 0 40px;
+}
+.footer{
+    background-image: url(Images/Project-1/footer-back.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 430px;
+}
+.foot{
+    color: white;
+    margin: 10px 20px;
+}
+.foot p{
+    margin: 5px 0;
+}
+.app-con{
+    margin-top: 20px;
+}
+.app{
+    margin: 10px -1px;
+    width: 100px;
+    height: 30px;
+}
+.pay-con{
+    margin: 10px;
+}
+.pay{
+    margin: 10px 0px;
+    width: 200px;
+    height: 35px;
+}
